@@ -1,0 +1,2 @@
+first time run (for git clone) - npm install
+run server - npm start UIDAI
