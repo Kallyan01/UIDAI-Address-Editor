@@ -16,4 +16,5 @@ app.get('/dashboard',(req,res)=>{
 app.get('/dashboard-agent',(req,res)=>{
     res.render("dashboard-agent.ejs");
 })
+console.log("working")
 app.listen(3000)
