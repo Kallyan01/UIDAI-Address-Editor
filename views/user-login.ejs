@@ -1,3 +1,5 @@
+ 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,10 +48,10 @@
                     <div class="card-body">
                         <img src="images/adhar.png" alt="" style="width: 180px; height: 150px;"><br>
                         <form action="">
-                            <input type="text" class="form-control mt-5" placeholder="Enter Aadhar Number"><br>
+                            <input type="number" class="form-control mt-5" placeholder="Enter Aadhar Number" value="" id="ano" ><br>
                             <input type="number" class="form-control mt-2" placeholder="Enter Otp">
                         </form>
-                        <button class="mt-5 text-white" id="A">Send Otp</button><br>
+                        <button class="mt-5 text-white" id="A" onclick="print()">Send Otp</button><br>
                         <!-- <button class="mt-2 text-white"><strong>Agent Login</strong></button><br><br><br><br> -->
                     </div>
                   </div>
@@ -57,6 +59,13 @@
             <div class="col-md-4 mt-5"></div>
         </div>
     </div>
-    <script src="hover.js"></script>
+    <script src="js/hover.js"></script>
 </body>
+<script>
+   let ano= document.getElementById('ano')
+   let lenght = ano.value
+    function print(){
+    console.log((String(ano.value)).length)
+    }
+</script>
 

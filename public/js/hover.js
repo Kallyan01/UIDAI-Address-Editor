@@ -26,11 +26,3 @@ B.addEventListener("mouseout",function()
 {
     e[1].style.background="blue";
 });
-z.addEventListener("mouseover",function()
- {
-    e[0].style.background="red";
-});
-z.addEventListener("mouseout",function()
-{
-    e[0].style.background="blue";
-});
