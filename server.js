@@ -16,5 +16,8 @@ app.get('/dashboard',(req,res)=>{
 app.get('/dashboard-agent',(req,res)=>{
     res.render("dashboard-agent.ejs");
 })
+app.get('/extract',(req,res)=>{
+    res.render("addExtract.ejs");
+})
 app.use(express.static('public'));
 app.listen(3000)
