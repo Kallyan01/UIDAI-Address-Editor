@@ -16,5 +16,8 @@ app.get('/dashboard',(req,res)=>{
 app.get('/dashboard-agent',(req,res)=>{
     res.render("dashboard-agent.ejs");
 })
+app.get('/user-address-update', (req, res)=>{
+    res.render("user-address-update.ejs");
+})
 app.use(express.static('public'));
 app.listen(3000)
