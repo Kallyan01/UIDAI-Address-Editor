@@ -9,8 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "install": "^0.13.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.12",
+    "passport": "^0.5.0",
     "tesseract.js": "^2.1.5"
   },
   "devDependencies": {
